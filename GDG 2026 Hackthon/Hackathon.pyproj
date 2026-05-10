@@ -24,6 +24,7 @@
     <Compile Include="pages\Credits.py" />
     <Compile Include="database.py" />
     <Compile Include="main.py" />
+    <Compile Include="pages\Home.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\discreteiconexpanded.png" />

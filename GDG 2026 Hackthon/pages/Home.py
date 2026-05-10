@@ -11,7 +11,7 @@ def main(argv: list[str]):
 def filter_options():
     left, right = st.columns(2)
     st.session_state["difficulty_filter"] = [difficulty.lower() for difficulty in left.multiselect("Difficulty", ['Easy', 'Medium', 'Hard'])]
-    st.session_state["topic_filter"] = [topic.lower() for topic in right.multiselect("Topic", ['Set Theory', 'Logic', 'Probability', 'Trees', "Coloring", "Planar Graphs"])]
+    st.session_state["topic_filter"] = [topic.lower() for topic in right.multiselect("Topic", ['Set Theory', 'Logic', 'Probability', 'Trees', "Coloring", "Planar Graphs", "Euler and Hamilton", "Connectivity", "Graph Theory", "Binomial", "Historians", "Functions", "Sums and Sequences", "Induction", "Recurrences", "Counting", "Relations", "Proofs", "Integer Properties", "Boolean Algebra"])]
     pass
 
 def display_question():
@@ -24,7 +24,7 @@ def display_question():
     # Display #
     st.header(topic)
     st.latex(question_text)
-    inputted_answer = st.text_input("Answer", placeholder="Enter answer here")
+    inputted_answer = st.text_input("Answer", placeholder="Enter answer here", )
     # Buttons #
     left, middle, right = st.columns(3)
     if left.button("Submit", width='stretch'): # When Submitted #

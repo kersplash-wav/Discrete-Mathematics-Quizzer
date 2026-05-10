@@ -30,6 +30,8 @@
     <Content Include="images\discreteiconexpanded.png" />
     <Content Include="images\discretemathiconblur.png" />
     <Content Include="images\discretemathiconwithtext.png" />
+    <Content Include="Images\github.svg" />
+    <Content Include="Images\linkedIn.png" />
     <Content Include="makefile" />
   </ItemGroup>
   <ItemGroup>

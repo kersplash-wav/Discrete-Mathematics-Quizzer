@@ -16,7 +16,4 @@ pg = st.navigation(['pages/Home.py', 'pages/Credits.py'], position='top')
 pg.run()
 
 # Images used for logo
-HORIZONTAL = "images/discretemathiconwithtext.png"
-ICON = "images/discreteiconexpanded.png"
-
-st.logo(HORIZONTAL, size='large', icon_image=ICON) # Sets the logo for the sidebar when opened or closed.
+st.logo("images/discretemathiconwithtext.png", size='large', icon_image="images/discreteiconexpanded.png") # Sets the logo for the sidebar when opened or closed.

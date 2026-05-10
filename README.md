@@ -1,5 +1,5 @@
 # Discrete Mathematics Quizzer
-![A promotional banner which says "Discrete Mathematics Quizzer"](https://github.com/kersplash-wav/Discrete-Math-Quizzer/blob/main/GDG%202026%20Hackthon/Images/discretemathquizzerbanner.png)
+![A promotional banner which says "Discrete Mathematics Quizzer"](https://github.com/kersplash-wav/Discrete-Mathematics-Quizzer/blob/main/Program/Images/discretemathquizzerbanner.png?raw=true)
 <p align="center">Developed by Nico Ranin and Robert Rodriguez</p>
 
 ## Set-Up Instructions

@@ -16,4 +16,4 @@ pg = st.navigation(['pages/Home.py', 'pages/Credits.py'], position='top')
 pg.run()
 
 # Images used for logo
-st.logo("images/discretemathiconwithtext.png", size='large', icon_image="images/discreteiconexpanded.png") # Sets the logo for the sidebar when opened or closed.
+st.logo("https://github.com/kersplash-wav/GDG-2026-Hackathon/blob/main/GDG%202026%20Hackthon/Images/discretemathiconwithtext.png?raw=true", size='large', icon_image="https://github.com/kersplash-wav/GDG-2026-Hackathon/blob/main/GDG%202026%20Hackthon/Images/discreteiconexpanded.png?raw=true") # Sets the logo for the sidebar when opened or closed.

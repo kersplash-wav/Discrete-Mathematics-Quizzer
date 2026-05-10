@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{259D9AD1-A737-47C3-B63C-BF75C6B4EA35}|GDG 2026 Hackthon\\Hackathon.pyproj|C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\database.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{259D9AD1-A737-47C3-B63C-BF75C6B4EA35}|GDG 2026 Hackthon\\Hackathon.pyproj|solutionrelative:GDG 2026 Hackthon\\database.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{259D9AD1-A737-47C3-B63C-BF75C6B4EA35}|GDG 2026 Hackthon\\Hackathon.pyproj|C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{259D9AD1-A737-47C3-B63C-BF75C6B4EA35}|GDG 2026 Hackthon\\Hackathon.pyproj|solutionrelative:GDG 2026 Hackthon\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{259D9AD1-A737-47C3-B63C-BF75C6B4EA35}|GDG 2026 Hackthon\\Hackathon.pyproj|C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\makefile||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{259D9AD1-A737-47C3-B63C-BF75C6B4EA35}|GDG 2026 Hackthon\\Hackathon.pyproj|solutionrelative:GDG 2026 Hackthon\\makefile||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{259D9AD1-A737-47C3-B63C-BF75C6B4EA35}|GDG 2026 Hackthon\\Hackathon.pyproj|C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\database.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{259D9AD1-A737-47C3-B63C-BF75C6B4EA35}|GDG 2026 Hackthon\\Hackathon.pyproj|solutionrelative:GDG 2026 Hackthon\\database.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,60 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "makefile",
-              "DocumentMoniker": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\makefile",
-              "RelativeDocumentMoniker": "GDG 2026 Hackthon\\makefile",
-              "ToolTip": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\makefile",
-              "RelativeToolTip": "GDG 2026 Hackthon\\makefile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-10T14:19:04.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Home.py",
-              "DocumentMoniker": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\pages\\Home.py",
-              "RelativeDocumentMoniker": "GDG 2026 Hackthon\\pages\\Home.py",
-              "ToolTip": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\pages\\Home.py",
-              "RelativeToolTip": "GDG 2026 Hackthon\\pages\\Home.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2026-05-10T11:49:59.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Credits.py",
-              "DocumentMoniker": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\pages\\Credits.py",
-              "RelativeDocumentMoniker": "GDG 2026 Hackthon\\pages\\Credits.py",
-              "ToolTip": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\pages\\Credits.py",
-              "RelativeToolTip": "GDG 2026 Hackthon\\pages\\Credits.py",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2026-05-10T11:49:58.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.py",
-              "DocumentMoniker": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\main.py",
-              "RelativeDocumentMoniker": "GDG 2026 Hackthon\\main.py",
-              "ToolTip": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\main.py",
-              "RelativeToolTip": "GDG 2026 Hackthon\\main.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2026-05-10T11:47:26.395Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -91,12 +39,61 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "makefile",
+              "DocumentMoniker": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\makefile",
+              "RelativeDocumentMoniker": "GDG 2026 Hackthon\\makefile",
+              "ToolTip": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\makefile",
+              "RelativeToolTip": "GDG 2026 Hackthon\\makefile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-10T14:19:04.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.py",
+              "DocumentMoniker": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\pages\\Home.py",
+              "RelativeDocumentMoniker": "GDG 2026 Hackthon\\pages\\Home.py",
+              "ToolTip": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\pages\\Home.py",
+              "RelativeToolTip": "GDG 2026 Hackthon\\pages\\Home.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-05-10T11:49:59.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Credits.py",
+              "DocumentMoniker": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\pages\\Credits.py",
+              "RelativeDocumentMoniker": "GDG 2026 Hackthon\\pages\\Credits.py",
+              "ToolTip": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\pages\\Credits.py",
+              "RelativeToolTip": "GDG 2026 Hackthon\\pages\\Credits.py",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-05-10T11:49:58.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.py",
+              "DocumentMoniker": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\main.py",
+              "RelativeDocumentMoniker": "GDG 2026 Hackthon\\main.py",
+              "ToolTip": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\main.py",
+              "RelativeToolTip": "GDG 2026 Hackthon\\main.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-05-10T11:47:26.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "database.py",
               "DocumentMoniker": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\database.py",
               "RelativeDocumentMoniker": "GDG 2026 Hackthon\\database.py",
               "ToolTip": "C:\\Users\\Bread\\source\\repos\\GDG 2026 Hackathon\\GDG 2026 Hackthon\\database.py",
               "RelativeToolTip": "GDG 2026 Hackthon\\database.py",
-              "ViewState": "AgIAAAkDAAAAAAAAAAAkwBADAABLAAAAAAAAAA==",
+              "ViewState": "AgIAADkWAAAAAAAAAAAAABADAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2026-05-10T11:43:25.135Z",
               "EditorCaption": ""

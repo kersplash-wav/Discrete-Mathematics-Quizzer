@@ -7,9 +7,10 @@ When we first encountered discrete mathematics in our undergraduate university c
 Our project is a Discrete Mathematics Quizzer. With thousands of questions in categories ranging from combinatorics to trees to set theory, we cover all the areas of discrete mathematics an undergraduate university student should be expected to know and learn. Our project quizzes users on these areas: they're provided a question to which they must answer.
 
 ## How we built it
-We built this project using Python script. 
+We built this program using the language Python as well as the public graphical library *Streamlit*.
 
 ## Challenges we encountered
+During the initial creation of our program, we rewrote the practice problem quizzer multiple times. The first problem we encountered, was how to store the problems. We tried multiple things such as SQL, JSON; however, we decided to write the questions into a dictionary so that we could add things such as lambda-functions/anonymous-functions to randomize the questions such as random sets and random values.
 
 ## Accomplishments we're proud of
 
@@ -24,5 +25,3 @@ Each question has been assigned a difficulty rating (easy, medium, hard) to allo
 These questions are also categorized into respective areas of discrete mathematics for further specialization in specific topics (ex. sets, proofs, recurrences).
 
 This project was coded using Python and Streamlit.
-
-

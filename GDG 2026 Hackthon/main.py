@@ -15,7 +15,6 @@ if "questions" not in st.session_state:
 pg = st.navigation(['pages/Home.py', 'pages/Credits.py'], position='top')
 pg.run()
 
-    
 # Images used for logo
 HORIZONTAL = "images/discretemathiconwithtext.png"
 ICON = "images/discreteiconexpanded.png"

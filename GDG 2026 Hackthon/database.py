@@ -11,7 +11,7 @@ def request_question():
     return question_index, question
 
 def refresh_questions():
-    st.session_state["questions"] = [
+    questions = [
         #region Set Theory
         {
             "topic": "Set Theory",
@@ -143,8 +143,9 @@ def refresh_questions():
             "topic": "Logic",
             "set": [random.randint(0, 1) == 1 for _ in range(3)],
             "question": lambda index:
-                f"""\\text{{What is the set S equivalent to if S}} \\equiv 
-                {st.session_state["questions"][index]["set"][0]} \\cup {st.session_state["questions"][index]["set"][1]} \\cap {st.session_state["questions"][index]["set"][2]}""",
+                f"""\\text{{Let the set S}} \\equiv 
+                {st.session_state["questions"][index]["set"][0]} \\cup {st.session_state["questions"][index]["set"][1]} \\cap {st.session_state["questions"][index]["set"][2]}.
+                \\space\\text{{Is the set S equivalent to True or False?}}""",
             "answer": lambda index:
                 str(st.session_state["questions"][index]["set"][0] or st.session_state["questions"][index]["set"][1] and st.session_state["questions"][index]["set"][2]),
             "difficulty": "Easy"
@@ -1615,8 +1616,25 @@ def refresh_questions():
         },
 
 #endregion
-        
     ]
 
+    # Filter #
+    if 'difficulty_filter' not in st.session_state or len(st.session_state['difficulty_filter']) == 0:
+        st.session_state["questions"] = questions
+    else:
+        st.session_state["questions"] = list(filter(
+            lambda question: st.session_state['difficulty_filter'].__contains__(question['difficulty'].lower()), 
+            questions
+        ))
+
+    questions = st.session_state["questions"]
+
+    if 'topic_filter' in st.session_state and len(st.session_state['topic_filter']) > 0:
+        st.session_state["questions"] = list(filter(
+            lambda question: st.session_state['topic_filter'].__contains__(question['topic'].lower()), 
+            questions
+        ))
+        
+    # Pick Random Question #
     question_amount = len(st.session_state["questions"])
     st.session_state['question_index'] = random.randint(0, question_amount - 1)

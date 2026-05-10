@@ -5,10 +5,13 @@ import sys;
 # Main #
 def main(argv: list[str]):
     st.title("Discrete Mathematics Quizzer")
+    filter_options()
     display_question()
 
 def filter_options():
-    st.session_state["difficulty_filter"] = st.radio("Difficulty", ['easy', 'medium', 'hard'])
+    left, right = st.columns(2)
+    st.session_state["difficulty_filter"] = [difficulty.lower() for difficulty in left.multiselect("Difficulty", ['Easy', 'Medium', 'Hard'])]
+    st.session_state["topic_filter"] = [topic.lower() for topic in right.multiselect("Topic", ['Set Theory', 'Logic', 'Probability', 'Trees', "Coloring", "Planar Graphs"])]
     pass
 
 def display_question():
@@ -22,8 +25,8 @@ def display_question():
     st.header(topic)
     st.latex(question_text)
     inputted_answer = st.text_input("Answer", placeholder="Enter answer here")
+    # Buttons #
     left, middle, right = st.columns(3)
-
     if left.button("Submit", width='stretch'): # When Submitted #
         if answer.lower() == inputted_answer.lower():
             st.markdown(f"{inputted_answer} is :green[correct!]")

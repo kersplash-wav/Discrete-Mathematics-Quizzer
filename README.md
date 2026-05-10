@@ -1,6 +1,10 @@
 # Discrete Mathematics Quizzer
-![A promotional banner which says "Discrete Mathematics Quizzer"](https://github.com/kersplash-wav/GDG-2026-Hackathon/blob/main/GDG%202026%20Hackthon/Images/discretemathquizzerbanner.png)
+![A promotional banner which says "Discrete Mathematics Quizzer"](https://github.com/kersplash-wav/Discrete-Math-Quizzer/blob/main/GDG%202026%20Hackthon/Images/discretemathquizzerbanner.png)
 <p align="center">Developed by Nico Ranin and Robert Rodriguez</p>
+
+## Set-Up Instructions
+Go within the Program folder and run the command: 
+`make run`
 
 ## Inspiration
 When we first encountered discrete mathematics in our undergraduate university courses, we felt extremely challenged by its contents. It felt as if many topics were too difficult to understand and that there wasn't enough practice to support our learning. This wasn't a sentiment only just the two of us developers shared: in fact, it was very common between other peers of ours, both at our university and outside of it.

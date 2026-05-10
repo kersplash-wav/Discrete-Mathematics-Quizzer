@@ -42,14 +42,5 @@ def display_question():
 
     if right.button("Reveal Answer", width='stretch'):
         st.markdown(f":blue[{answer.lower()} is the answer!]")
-    # Display Difficulty #
-    
-    #match question['difficulty'].lower():
-    #    case 'easy':
-    #        st.badge("Easy", color="green")
-    #    case 'medium':
-    #        st.badge("Medium", color="yellow")
-    #    case 'hard':
-    #        st.badge("Hard", color="red")
     
 main(sys.argv)

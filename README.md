@@ -3,7 +3,7 @@
 <p align="center">Developed by Nico Ranin and Robert Rodriguez</p>
 
 ## Set-Up Instructions
-Access the Program folder of the project. Then, run the command `make run` in the terminal. The local website is then automatically opened in your default browser. If this fails to work, copy and paste the provided local host address in the terminal in any browser of your choice. You will then be able to access the website locally. The website can also be accessed online by using the website https://discrete-mathematics-quizzer.streamlit.app/.
+Access the Program folder of the project. Then, run the command `make run` in the terminal. The local website is then automatically opened in your default browser. If this fails to work, copy and paste the provided local host address in the terminal in any browser of your choice. You will then be able to access the website locally. The website can also be accessed online by using the website https://discrete-mathematics-quizzer.streamlit.app/. If the app is not immediatiately accessible due to Streamlit's 12-hour inactivity restraints, click "Yes, get this app back up!" on the hosting page to continue.
 
 ## Inspiration
 When we first encountered discrete mathematics in our undergraduate university courses, we felt extremely challenged by its contents. It felt as if many topics were too difficult to understand and that there wasn't enough practice to support our learning. This wasn't a sentiment only just the two of us developers shared: in fact, it was very common between other peers of ours, both at our university and outside of it.

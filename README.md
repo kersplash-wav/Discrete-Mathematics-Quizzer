@@ -31,3 +31,12 @@ There's numerous next steps to take for this project that we would have liked to
 - AI explanations for answers (using the Gemini API)
 - Gamification aspects (leaderboards, completion statistics, a versus mode)
 - More accurate difficulty ratings sourced, from data of other users (tracking the percentage of people who correctly guessed a question)
+
+## Video
+For this project, we created a demo video which summarizes the information above in a playful manner. You can click the image below to access the YouTube video.
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=lO22a8klyp8">
+    <img src="https://img.youtube.com/vi/lO22a8klyp8/0.jpg" alt="Discrete Math Quizzer: Demo Video">
+  </a>
+</p>
